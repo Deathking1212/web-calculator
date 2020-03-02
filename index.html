@@ -9,7 +9,12 @@
     <h1>calculator </h1>
     <form>
         <input type="text" id="firstnumber"/>
-        <span>+</span>
+        <select id="operator">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="divide">/</option>
+            <option value="multiply">*</option>
+        </select>
         <input type="text" id="secondnumber"/>
         <input type="button" value="=" onclick="calculate()"/>
     </form>
